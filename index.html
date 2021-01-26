@@ -14,57 +14,82 @@
 
 <body>
   <header>
-    <nav>
-      <a href="#">grand school</a>
-      <ul>
-        <li>
-          <a href="#">home</a>
-        </li>
-        <li>
-          <a href="#">about us</a>
-          <div>
-            <a href="#">who we are?</a>
-            <a href="#">what we do?</a>
-            <a href="#">how it work?</a>
-            <a href="#">external url</a>
-          </div>
-        </li>
-        <li>
-          <a href="#">course</a>
-        </li>
-        <li>
-          <a href="#">contact</a>
-        </li>
-        <li>
-          <a href="#">external</a>
-        </li>
-      </ul>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark text-uppercase">
+      <!-- Brand -->
+      <a class="navbar-brand" href="#">grand school</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <!-- Links -->
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">home</a>
+          </li>
+          <!-- Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">about us</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">who we are?</a>
+              <a class="dropdown-item" href="#">what we do?</a>
+              <a class="dropdown-item" href="#">how it work?</a>
+              <a class="dropdown-item" href="#">external url</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">course</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">external</a>
+          </li>
+        </ul>
+      </div>
     </nav>
   </header>
   <main>
     <section>
-      <p>graduate school of management</p>
-      <h1>your classroom</h1>
-      <a href="#">discover more</a>
-      <div>
-        <div>
-          <div>all courses</div>
-          <div>virtual class</div>
-          <div>real meeting</div>
+      <div class="bg-danger d-flex flex-column align-items-center justify-content-center text-white pt-5">
+        <p class="text-uppercase font-weight-bold">graduate school of management</p>
+        <h1 class="text-uppercase display-4 font-weight-bold"><span class="text-success">your</span> classroom</h1>
+        <a class="btn btn-success mt-3" href="#">discover more</a>
+        <div class="container bg-primary mt-5">
+          <div class="row text-center text-uppercase px-3 py-4">
+            <div class="col-md-4">all courses</div>
+            <div class="col-md-4">virtual class</div>
+            <div class="col-md-4">real meeting</div>
+          </div>
         </div>
       </div>
     </section>
     <section>
-      <div>Why choose Grad School?</div>
-      <div>
-        <div>best education</div>
-        <div>top management</div>
-        <div>quality meeting</div>
-      </div>
-      <div>
-        <div>
-          <img src="#" alt="3 images">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-md-3 border mx-auto px-3 py-4 text-center">
+            Why choose Grad School?
+          </div>
+        </div>
+        <div class="d-flex justify-content-around text-center text-uppercase">
           <div>
+            <h6>best education</h6>
+            <input type="checkbox">
+          </div>
+          <div>
+            <h6>top management</h6>
+            <input type="checkbox">
+          </div>
+          <div>
+            <h6>quality meeting</h6>
+            <input type="checkbox">
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-md-6">
+            <img src="#" alt="3 images">
+          </div>
+          <div class="col-md-6">
             <h2>best education</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est blanditiis odit inventore veritatis? Quam,
               fuga voluptatem molestias tempora natus maxime, eos deserunt magnam ullam consequatur error animi autem
@@ -73,90 +98,36 @@
         </div>
       </div>
     </section>
-    <section>
-      <div>
-        <div>
-          <h2>take any online course and win $326 for your next class</h2>
-          <div>time days hours minutes seconds</div>
-        </div>
-        <div>
-          <div>
+    <section class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+            <h2>Take any online course and win $326 for your next class</h2>
             <div>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            </div>
-            <div>
-              <form action="#">
-                <input type="text" placeholder="Your Name">
-                <input type="email" placeholder="Your Email">
-                <input type="tel" placeholder="Your Phone Number">
-                <button type="submit">get it now</button>
-              </form>
+              <span>days</span>
+              <span>hours</span>
+              <span>minutes</span>
+              <span>seconds</span>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
-    <section>
-      <div>choose your course</div>
-      <div>
-        <div>
-          <div>
-            <div>image</div>
-            <div>
-              <h6>title</h6>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur recusandae praesentium doloremque
-                veritatis molestias incidunt explicabo error, amet aliquid.</p>
-              <div>
-                <img src="#" alt="Avatar">
-                <a href="#">Free</a>
+          <div class="col-md-5">
+            <div class="card">
+              <div class="card-header">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               </div>
-            </div>
-          </div>
-          <div>
-            <div>image</div>
-            <div>
-              <h6>title</h6>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur recusandae praesentium doloremque
-                veritatis molestias incidunt explicabo error, amet aliquid.</p>
-              <div>
-                <img src="#" alt="Avatar">
-                <a href="#">Free</a>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div>image</div>
-            <div>
-              <h6>title</h6>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur recusandae praesentium doloremque
-                veritatis molestias incidunt explicabo error, amet aliquid.</p>
-              <div>
-                <img src="#" alt="Avatar">
-                <a href="#">Free</a>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div>image</div>
-            <div>
-              <h6>title</h6>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur recusandae praesentium doloremque
-                veritatis molestias incidunt explicabo error, amet aliquid.</p>
-              <div>
-                <img src="#" alt="Avatar">
-                <a href="#">Free</a>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div>image</div>
-            <div>
-              <h6>title</h6>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur recusandae praesentium doloremque
-                veritatis molestias incidunt explicabo error, amet aliquid.</p>
-              <div>
-                <img src="#" alt="Avatar">
-                <a href="#">Free</a>
+              <div class="card-body">
+                <form class="text-center" action="#">
+                  <div class="form-group">
+                    <input class="form-control" type="text" placeholder="Your Name">
+                  </div>
+                  <div class="form-group">
+                    <input class="form-control" type="email" placeholder="Your Email">
+                  </div>
+                  <div class="form-group">
+                    <input class="form-control" type="tel" placeholder="Your Phone Number">
+                  </div>
+                  <button class="btn btn-success" type="submit">get it now</button>
+                </form>
               </div>
             </div>
           </div>
@@ -164,43 +135,128 @@
       </div>
     </section>
     <section>
-      <div>
-        <div>
-          <p>our presentation is for you</p>
-          <h2>Watch the video to learn more about Grad School</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis porro perspiciatis impedit tempora
-            provident deleniti, omnis ipsam soluta ab vitae nobis saepe repellendus id iste illo quisquam quibusdam
-            officia esse!</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius perspiciatis repellat nulla, doloribus veniam
-            aspernatur quasi vitae?</p>
-          <a href="#">external url</a>
+      <div class="container-fluid">
+        <div class="col-md-3 border mx-auto px-3 py-4 text-center">
+          choose your course
         </div>
-        <div>
-          <iframe src="#"></iframe>
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="card">
+              <img src="#" class="card-img-top" alt="image">
+              <div class="card-body">
+                <h6 class="card-title">title</h6>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur recusandae
+                  praesentium doloremque
+                  veritatis molestias incidunt explicabo error, amet aliquid.</p>
+                <div>
+                  <img src="#" alt="Avatar">
+                  <a href="#">Free</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card">
+              <img src="#" class="card-img-top" alt="image">
+              <div class="card-body">
+                <h6 class="card-title">title</h6>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur recusandae
+                  praesentium doloremque
+                  veritatis molestias incidunt explicabo error, amet aliquid.</p>
+                <div>
+                  <img src="#" alt="Avatar">
+                  <a href="#">Free</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card">
+              <img src="#" class="card-img-top" alt="image">
+              <div class="card-body">
+                <h6 class="card-title">title</h6>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur recusandae
+                  praesentium doloremque
+                  veritatis molestias incidunt explicabo error, amet aliquid.</p>
+                <div>
+                  <img src="#" alt="Avatar">
+                  <a href="#">Free</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card">
+              <img src="#" class="card-img-top" alt="image">
+              <div class="card-body">
+                <h6 class="card-title">title</h6>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur recusandae
+                  praesentium doloremque
+                  veritatis molestias incidunt explicabo error, amet aliquid.</p>
+                <div>
+                  <img src="#" alt="Avatar">
+                  <a href="#">Free</a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
     <section>
-      <div>let's keep in touch</div>
-      <div>
-        <div>
-          <form action="#">
-            <input type="text" placeholder="Your Name">
-            <input type="email" placeholder="Your Email">
-            <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
-            <a href="#">send message now</a>
-          </form>
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-md-6">
+            <p>our presentation is for you</p>
+            <h2>Watch the video to learn more about Grad School</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis porro perspiciatis impedit tempora
+              provident deleniti, omnis ipsam soluta ab vitae nobis saepe repellendus id iste illo quisquam quibusdam
+              officia esse!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius perspiciatis repellat nulla, doloribus veniam
+              aspernatur quasi vitae?</p>
+            <a class="btn btn-success" href="#">external url</a>
+          </div>
+          <div class="col-md-6">
+            <iframe src="#"></iframe>
+          </div>
         </div>
-        <div>
-          <div>
-            <iframe src="#" frameborder="0">map</iframe>
+      </div>
+    </section>
+    <section class="bg-dark">
+      <div class="container py-5">
+        <div class="col-md-3 border mx-auto px-3 py-4 text-center">
+          let's keep in touch
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <form class="bg-primary p-4" action="#">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input class="form-control" type="text" placeholder="Your Name">
+                </div>
+                <div class="col-md-6 form-group">
+                  <input class="form-control" type="email" placeholder="Your Email">
+                </div>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+              </div>
+              <a class="btn btn-success" href="#">send message now</a>
+            </form>
+          </div>
+          <div class="col-lg-6">
+            <div>
+              <iframe src="#" frameborder="0">map</iframe>
+            </div>
           </div>
         </div>
       </div>
     </section>
   </main>
   <footer>
-    <span>copyright 2020 by grad school design: templatemo</span>
+    <div class="text-center py-3 bg-dark border-top">
+      <span class="text-white">copyright 2020 by grad school design: templatemo</span>
+    </div>
   </footer>
 </body>
 
