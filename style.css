@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-item {
+  margin-right: 1rem;
+}
+
+#bg-img {
+  background-image: url(https://www.casstudentcentral.org/wp-content/uploads/2018/12/SC-1024x684.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 10rem;
+}
+
+.time {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+  width: 5rem;
+  height: 5rem;
+  margin: 1rem;
+}
